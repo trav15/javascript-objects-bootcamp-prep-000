@@ -4,6 +4,6 @@ function updatePlaylist(obj, artist, song) {
   return obj.artist = song
 }
 
-updatePlaylist(playlist, Bonobo, 'Eyesdown')
+updatePlaylist(playlist, 'Bonobo', 'Eyesdown')
 
 console.log(playlist)
