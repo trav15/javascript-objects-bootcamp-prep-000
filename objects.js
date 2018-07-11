@@ -1,3 +1,3 @@
-var playlist = {AphexTwin: 'Cow Cud Is A Twin'}
+var playlist = {'Aphex Twin': 'Cow Cud Is A Twin'}
 
 console.log(playlist)
