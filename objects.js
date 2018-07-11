@@ -1,3 +1,3 @@
 var playlist = {'Aphex Twin': 'Cow Cud Is A Twin'}
 
-console.log(playlist)
+console.log('Aphex Twin')
