@@ -6,4 +6,4 @@ function updatePlaylist(obj, artist, song) {
 
 updatePlaylist(playlist, Bonobo, 'Eyesdown')
 
-console.log(playlist[playlist])
+console.log(playlist)
