@@ -4,4 +4,6 @@ function updatePlaylist(obj, artist, song) {
   return obj.artist = song
 }
 
-console.log(playlist['Aphex Twin'])
+updatePlaylist(playlist, Bonobo, Eyesdown)
+
+console.log(playlist[playlist])
