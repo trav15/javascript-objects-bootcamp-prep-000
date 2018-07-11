@@ -1,1 +1,1 @@
-var playlist = {Aphex Twin: 'Flim'}
+var playlist = {AphexTwin: 'Flim'}
