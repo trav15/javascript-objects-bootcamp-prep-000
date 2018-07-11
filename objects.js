@@ -4,6 +4,11 @@ function updatePlaylist(obj, artist, song) {
   return obj[artist] = song
 }
 
-updatePlaylist(playlist, 'Bonobo', 'Eyesdown')
+function removeFromPlaylist(obj, artist) {
+  return delete obj[artist]
+}
 
+updatePlaylist(playlist, 'Bonobo', 'Eyesdown')
+console.log(playlist)
+removeFromPlaylist(playlist, 'Aphex Twin')
 console.log(playlist)
